@@ -11,7 +11,7 @@ namespace BaiTap1ADONET.DataAccessLayer
 {
     public class AnimalDAL
     {
-        private string connectionString = @"Data Source=DESKTOP-34OSP4G\SQLEXPRESS;Initial Catalog=AnimalDB;Integrated Security=True";
+        private string connectionString = @"Data Source=LAPTOP-J7OECDJF\SQLEXPRESS;Initial Catalog=AnimalDB;Integrated Security=True";
 
         private static AnimalDAL instance;
         public static AnimalDAL GI()

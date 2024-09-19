@@ -68,19 +68,19 @@ namespace BaiTap1ADONET
         {
             if (!int.TryParse(textCow, out _))
             {
-                MessageBox.Show("Chỉ chấp nhật số");
+                MessageBox.Show("Chỉ nhập số");
                 canStatistical = false;
 
             }
             else if (!int.TryParse(textSheep, out _))
             {
-                MessageBox.Show("Chỉ chấp nhật số.");
+                MessageBox.Show("Chỉ nhập số");
                 canStatistical = false;
 
             }
             else if (!int.TryParse(textGoat, out _))
             {
-                MessageBox.Show("Chỉ chấp nhật số.");
+                MessageBox.Show("Chỉ nhập số");
                 canStatistical = false;
 
             }
