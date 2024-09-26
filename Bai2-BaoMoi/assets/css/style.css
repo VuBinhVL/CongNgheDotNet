@@ -117,7 +117,7 @@
 }
 
 .header .header-menu .inner-menu ul .news a::after {
-  content: "18";
+  content: "2";
   position: absolute;
   top: 5px;
   right: 20px;
